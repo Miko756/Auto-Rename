@@ -5,7 +5,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "21857983")
     API_HASH  = os.environ.get("API_HASH", "e469e84c943ce3b8b056eb6a296f2c67")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7508789523:AAFl9D7SYMlPriux4-tkmMEcnuhCaGTlklg") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6613733493:AAHtEuKxjmllDjSL8xGFzgFaL3QYeezeYo0") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
@@ -15,8 +15,8 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://envs.sh/nxK.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '833465134').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "aboutRizzx") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002497860595"))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Era_Bot_Support") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002205743743"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
